@@ -52,7 +52,12 @@
             DisplayAbout();
             break;
         default:
-            DisplayDashboard($extraFooterScripts);
+            if (str_starts_with($page,"/plugin__")){
+                pluginHandlePageAction($page);
+            }
+            else {
+                DisplayDashboard($extraFooterScripts);
+            }
         }
       ?>
 

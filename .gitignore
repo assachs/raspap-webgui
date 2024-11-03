@@ -4,5 +4,6 @@ yarn-error.log
 *.swp
 includes/config.php
 rootCA.pem
+plugins/*
 vendor
 .env

@@ -85,5 +85,8 @@
         <?php endif; ?>
         <div class="sb-nav-link-icon px-2">
           <a class="nav-link" href="about"><i class="sb-nav-link-icon fas fa-info-circle fa-fw mr-2"></i><span class="nav-label"><?php echo _("About RaspAP"); ?></a>
+        <?php
+            pluginSidebar();
+        ?>
         </div>
 
